@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "name": "RSK",
+    "course": "Angular",
+    "address": {
+      "street" : "Kranthi Nagar",
+      "city": "Nandyal",
+      "state":"AP",
+      "pincode": "518502"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Satish",
+    "course": "React",
+    "address": {
+      "street" : "Bommala Satram",
+      "city": "Nandyal",
+      "state":"Karnataka",
+      "pincode": "518502"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Renu",
+    "course": "Vue",
+    "address": {
+      "street" : "Boya Peta",
+      "city": "Bethamcherla",
+      "state":"Gujarath",
+      "pincode": "515201"
+    }
+  }
+]

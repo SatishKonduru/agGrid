@@ -1,0 +1,39 @@
+<mat-nav-list>
+  <div class="logo py-4">
+    <img src="../../../assets/logo.svg">
+  </div>
+  <mat-divider></mat-divider>
+  <h2>AgGrid: Angular</h2>
+  <mat-divider></mat-divider>
+  <a mat-list-item [routerLink]="'/home'"
+  routerLinkActive="list-item-active"
+  >Home</a>
+  <a mat-list-item [routerLink]="'/sort'"
+  routerLinkActive="list-item-active"
+  >Sorting</a>
+  <a mat-list-item [routerLink]="'/filter'"
+  routerLinkActive="list-item-active"
+  >Filter</a>
+  <a mat-list-item [routerLink]="'/rowSelection'" routerLinkActive="list-item-active"
+  >Row Selection</a>
+  <a mat-list-item [routerLink]="'/remoteData'" routerLinkActive="list-item-active"
+  >Remote Data</a>
+  <a mat-list-item [routerLink]="'/valueGetter'" routerLinkActive="list-item-active"
+  >Value Getter</a>
+
+  <a mat-list-item [matMenuTriggerFor]="menu"> Update Data
+    <mat-menu #menu>
+        <button mat-menu-item
+          [routerLink]="'/updateRowData'"> Row Data
+        </button>
+        <button mat-menu-item
+          [routerLink]="'/'">Single Row/Cell
+        </button>
+        <button mat-menu-item
+          [routerLink]="'/'"> Transaction
+        </button>
+    </mat-menu>
+  </a>
+
+
+</mat-nav-list>
